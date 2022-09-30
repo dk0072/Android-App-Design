@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Home">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/sky"
+        android:paddingTop="12sp"
+
+        android:layout_height="110sp">
+
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:src="@drawable/location_icon"/>
+
+        <TextView
+            android:paddingTop="7sp"
+            android:background="@drawable/location_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="35sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="  This Field Represents Your Full Address Data  "/>
+
+        <ImageView
+            android:paddingLeft="5sp"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:src="@drawable/notification_icon"/>
+
+
+        <ImageView
+            android:paddingLeft="5sp"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:src="@drawable/cart_icon"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="35sp"
+        android:paddingTop="60sp">
+
+        <EditText
+            android:layout_width="300sp"
+            android:layout_height="40sp"
+            android:background="@drawable/edittext"
+            android:textColor="@color/gray"
+            android:textColorHint="@color/gray"
+            android:textSize="12sp"
+            android:hint="Search For Products..."
+            android:drawablePadding="10sp"
+            android:drawableStart="@drawable/search_icon"/>
+
+
+        <ImageView
+            android:paddingLeft="5sp"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/voice_icon"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
